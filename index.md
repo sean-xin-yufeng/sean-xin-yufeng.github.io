@@ -75,7 +75,7 @@
 
 *04/2015–04/2016*
 
-**Deputy Head **
+**Deputy Head**
 
 - Planned and organized multiple campus level activities, serving over 3000+ attendance in total.
 - Interviewed entrepreneurial alumni and compiled the reports into a book.
