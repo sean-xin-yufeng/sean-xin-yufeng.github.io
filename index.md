@@ -28,21 +28,34 @@
 
 ## WORK EXPERIENCE
 
-### Tao Capital Co., Ltd.
-
-*Beijing, China*
-
-*07/2018-09/2019*
-
-**Quantitative Developer**
-
-### Alison Block Consulting Co., Ltd.
+### Hongkong Blue Wealth Asset Management Co., Ltd.
 
 *Shenzhen, China*
 
-*10/2019-11/2011*
+*10/2019-Present*
 
 **Data Engineer**
+
+- Reviewed DeFi cryptocurrency material and explored the feasibility of using stock prediction paradigm to predict DeFi cryptocurrency price direction.
+- Scraped twitter discussion data of DeFi Cryptocurrency using Tweepy API and obtained DeFi cryptocurrency historical data from *Binance*.
+- Transformed DeFi cryptocurrency data into features like tweets discussion volume, tweet sentiment, and trading volume, and then input cleaned features to machine learning model like Neural Network/LGBM to train our prediction model.
+- Optimized model parameter according to prediction accuracy and recall rate, transformed optimized model into trading strategy, and calculated strategy sharpe ratio, abnormal return, alpha, beta, information ratio, and maximum drawdown.
+- Stored model prediction data into log file and MongoDB system, wrote a python script to automatically push real-time model buy and hold prediction signal to subscribed customer on Telegram Msg bot, and updated customer reading behavior to database.
+- Wrote a system to aggregate real-time Defi cryptocurrency prices series from multiple exchanges and finished a python script to monitor data flow status like missing value and time out issues automatically.
+
+### Beijing Tao Capital Co., Ltd.
+
+*Beijing, China*
+
+*07/2018-10/2019*
+
+**Quantitative Developer**
+
+- Improved trend following strategy performance via combing two trend recognition indicators: first difference return autocorrelation and weighted two side return correlation, and further optimized indicator informativeness through parameter Grid Search method.
+- Applied pattern recognition algorithm-Perceptually Important Points(PIP) to detect future price series shapes such as “M”, “W”, and “√”, linked future price series shapes with the subsequent future return, and checked the subsequent future return statistics significant level by t-statistics.
+- Crawled around 40,000 firm annual report data from SEC website, parsed HTML format annual report data into TXT file, and extracted annual report  “management discussion and analysis” text by python RegExp.
+- Undertook other real-time market data calculation and statistical analysis tasks.eg. calculated announcement abnormal return, filtered portfolio stocks with extreme performance, updated fama-french factor model data.
+- Maintained firm Mysql and MongoDB database, updated firm financial data from subscribed database like Wind, datastream, and Bloomberg weekly, drafted technical reports to facilitate team work.
 
 ## ACADEMIC PROJECT
 
@@ -50,15 +63,22 @@
 
 *Xi'an, China*
 
-*03/2018–06/2018*
+*10/2017–05/2018*
 
 **Under the supervision of Prof. Yu Qiang**
+
+- Undergraduate thesis projects. Examined whether insider information proxied by large transactions could improve hidden Markov model (HMM) futures price prediction performance.
+- Wrote Python program to obtain Futures daily prices and top transaction order data from UQER, cleaned /standardized raw historical prices data, and then constructed over 20 meaningful insider information features like large order *shortVol,longVol,turnoverVol* and general price features like average return and trading volume.
+- Constructed both treatment and control group train datasets: The treatment group dataset included insider information features and general price features, while the control group only incorporated general price features.
+- Applied K-Means algorithms to the treatment and control group dataset, labeled daily data point with K-Means cluster, and then transferred multi-dimensional features series into K-Means cluster label series, equivalent to Markov Model observation sequence series.
+- Used the hmmlearn python package to fit the hidden Markov model based on future observation sequence series generated from treatment and control group train datasets respectively, evaluated model HMM model out of sample prediction accuracy, and found that HMM model consistently outperforms on treatment dataset in terms of prediction accuracy and backtest sharpe ratio.
+- Conducted various robustness tests and sensitivity tests via changing K-Means algorithm K parameter, HMM Hidden State Number, and test sample periods. Empirical results confirmed that insider order could significantly improve model prediction performance.
 
 ### Human Resource Management Platform Development
 
 *Xi'an, China*
 
-*11/2015–07/2016*
+*03/2016–07/2016*
 
 **Under the supervision of Prof. Zhang Xiong**
 
@@ -82,19 +102,19 @@
 
 ### Other Extracurricular Activities
 
-*Guangzhou, China*
+*Shenzhen/Dongguan/Huizhou, China*
 
 *06/2019–10/2021*
 
 **Participant**
 
 - Finished professional racing course.
-- Won champion in a track day held by Guangdong Racing International Circuit.
+- Organized an informal racing group and won champion in a track day held by Guangdong Racing International Circuit.
 - Organized a folk band and acted as a djembe drummer.
 
 ## KEY SKILLS
 
-- Programming Language: Python(proficient), SQL, MongoDB
+- Programming Language: Python(proficient), SQL, MongoDB, C#,C++
 - Financial Database: Bloomberg, Datastream, Wind, CSMAR
 - Language: Proficient in English Technical Materials (CET-6: 432) 
 - Hobby: Badminton, Racing, and Djembe
