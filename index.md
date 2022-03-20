@@ -1,6 +1,6 @@
 # Sean Xin Yufeng
 
-**Email** xyf328100958@live.com
+**Email** yufeng-xin@outlook.com
 
 ## EDUCATION BACKGROUND
 
